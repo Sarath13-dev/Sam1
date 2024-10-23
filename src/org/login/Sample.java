@@ -39,7 +39,7 @@ public class Sample extends HttpServlet{
 			
 			Cookie cookie2 = new Cookie("m", salary);
 			resp.addCookie(cookie2);
-			
+			System.out.println("Dev");
 			
 			
 			resp.sendRedirect("sq");
